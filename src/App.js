@@ -41,7 +41,7 @@ function App() {
       console.log(error.message);
       setIsLoading(false);
     });
-  }, [dispatch]);
+  }, [dispatch, dataLoaded]);
 
   useEffect(() => {
     const sendData = async () => {
@@ -63,7 +63,7 @@ function App() {
     sendData().catch((error) => {
       console.log(error);
     });
-  }, [dispatch, accData]);
+  }, [dispatch, accData, dataLoaded]);
   console.log(isLoggedIn);
 
   return (

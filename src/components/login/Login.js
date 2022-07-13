@@ -70,7 +70,7 @@ const Login = (props) => {
         <input
           onBlur={userNameBlurHandler}
           className={userNameClasses}
-          placeholder="User"
+          placeholder="User - dm"
           value={enteredUserName}
           onChange={userNameInputChangeHandler}
         />
@@ -78,7 +78,7 @@ const Login = (props) => {
         <input
           onBlur={pinBlurHandler}
           className={pinClasses}
-          placeholder="PIN"
+          placeholder="PIN - 1111"
           type="password"
           value={EnteredPin}
           onChange={pinInputChangeHandler}
