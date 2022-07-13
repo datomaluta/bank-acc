@@ -1,0 +1,41 @@
+.entireWrapper {
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 0.55fr 0.45fr;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.errorDiv {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+.error {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.errorDiv button {
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font: inherit;
+  width: 100px;
+  border-radius: 100px;
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 30px;
+}

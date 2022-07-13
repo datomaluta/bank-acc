@@ -1,0 +1,21 @@
+.mainWrapper {
+  height: 150px;
+  /* padding: 20px; */
+  padding: 0 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.transferWrapper {
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+}
+
+.loanWrapper {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+}
+
+.closeWrapper {
+  background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+}

@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: yellow; */
+}
+
+.dateAndCurrent {
+  /* background-color: red; */
+}
+
+.balance {
+  /* background-color: aqua; */
+}
+
+.currentText {
+  font-size: 20px;
+}
+
+.dateText {
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(138, 138, 138);
+}
+
+.balance p {
+  font-size: 36px;
+}

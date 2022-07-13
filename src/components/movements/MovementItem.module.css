@@ -1,0 +1,30 @@
+.movementItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid rgb(198, 193, 193);
+  margin-bottom: 10px;
+}
+
+.typeAndDate {
+  display: flex;
+  gap: 10px;
+}
+
+.type {
+}
+.deposit {
+  color: #fff;
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
+
+.withdrawal {
+  color: #fff;
+  background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
